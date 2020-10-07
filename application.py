@@ -13,7 +13,7 @@ def index():
     url = ''
     for valor in data:
         url = valor['url']
-    return '<h1 style="text-align: center;">Arthur Coutinho Santos</h1><h1 style="text-align: center;">RM336256</h1><div style="display: flex;justify-content: center;"><img src="%s" /></div>' % (url)
+    return '<img src="%s" /></div>' % (url)
 
 if __name__ == '__main__':
     application.run(host='0.0.0.0',debug=True)
